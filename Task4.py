@@ -1,6 +1,8 @@
 part = int(input('Введите номер четверти: '))
+
 q = list(range(11))
 c = list(range(-10,1))
+
 if (part == 1):
     print('x:',q,'y:',q)
 elif (part == 2):
